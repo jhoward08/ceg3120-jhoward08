@@ -22,8 +22,10 @@
 1. "mkdir <DIR_NAME>"
 # Change the current directory to the newly allocated DIR.
 2. "cd <DIR_NAME> "
-# Clone repository...
-3. "git clone  <git@github.com:<WSU-kduncan/ceg3120-<YOUR_NAME>.git>"
+# Initialize a local instance of a Git repository.
+3. "git init"
+# Clone existing repository into local instance or cd to another directory...
+4. "git clone  <git@github.com:<WSU-kduncan/ceg3120-<YOUR_NAME>.git>"
 * For example "git clone git@github.com:WSU-kduncan/ceg3120-jhoward08.git" (This is my Git repository)
 ![Make a Directory](mkdir_Projects.jpg)
 
