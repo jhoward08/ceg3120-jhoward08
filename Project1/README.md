@@ -14,7 +14,7 @@
 2. "ssh-keygen -t ed25519"
 * ***GO_WITH_DEFAULTS_FOR_FOLLOWING_QUESTIONS***
 # End result:
-![.jpg](https://github.com/WSU-kduncan/ceg3120-jhoward08/tree/main/Project1)
+![ssh-keygen](SSHKG.jpg)
 
 # Standup Git Repository.
 # Run the CMD(s):
@@ -25,7 +25,8 @@
 # Clone repository...
 3. "git clone  <git@github.com:<WSU-kduncan/ceg3120-<YOUR_NAME>.git>"
 * For example "git clone git@github.com:WSU-kduncan/ceg3120-jhoward08.git" (This is my Git repository)
-![mkdir_Projects.jpg](https://github.com/WSU-kduncan/ceg3120-jhoward08/tree/main/Project1)
+![Make a Directory](mkdir_Projects.jpg)
+
 # Make a DIR "Project1" within the current directory.
 # Run the CMD(s):
 # Change to new directory.
@@ -37,7 +38,8 @@
 # Continue working . . .
 # Write(save) and Quit the file.
 4. ":wq"
-![Create_and_Open.jpg](https://github.com/WSU-kduncan/ceg3120-jhoward08/tree/main/Project1)
+![Create ReadMe](Create_and_Open.jpg)
+
 # There is now a file REAME.md in the folder of the directory which the git repo instance was created.
 # Now the file(s) and any directories necessary must be added to the git repository.
 
@@ -50,4 +52,4 @@
 3. Input comment(s) for commit reason, then save and exit editor.
 # Push said changes to the Git repo master branch.
 4. "git push"
-![Commit_and_Push.jpg](https://github.com/WSU-kduncan/ceg3120-jhoward08/tree/main/Project1)
+![FINISH HIM!!!](Commit_and_Push.jpg)
