@@ -7,27 +7,37 @@
 3. Login to the AWS instance using "ssh -i <ssh-keygen> -C ubuntu@AWS_Instance_IP".
 * For example "ssh -i ceg3120-aws-vm-2.pem -C ubuntu@52.23.191.201" (This is my AWS_instance_IP)
 
+# Connect GitHub to AWS.
+# Run the CMD(s):
+1. "cd .ssh"
+# Create a separate set of keypair for the ubuntu system in AWS
+2. "ssh-keygen -t ed25519"
+* ***GO_WITH_DEFAULTS_FOR_FOLLOWING_QUESTIONS***
+# End result:
+![.jpg](https://github.com/WSU-kduncan/ceg3120-jhoward08/tree/main/Project1)
+
 # Standup Git Repository.
-# Run the CMD(s)
+# Run the CMD(s):
 # Make a new directory that is NOT HOME.
 1. "mkdir <DIR_NAME>"
 # Change the current directory to the newly allocated DIR.
 2. "cd <DIR_NAME> "
-# Clone repository
+# Clone repository...
 3. "git clone  <git@github.com:<WSU-kduncan/ceg3120-<YOUR_NAME>.git>"
 * For example "git clone git@github.com:WSU-kduncan/ceg3120-jhoward08.git" (This is my Git repository)
+![mkdir_Projects.jpg](https://github.com/WSU-kduncan/ceg3120-jhoward08/tree/main/Project1)
 # Make a DIR "Project1" within the current directory.
-# Run the CMD(s)
+# Run the CMD(s):
 # Change to new directory.
 1. "cd Project1"
-# Creates a file named README.md
+# Create a file named README.md
 2. "touch README.md"
 # Open the file in an editor (vim, vi, nano, gedit, etc.)
-3. "vim REAMME.md"
+3. "vim README.md"
 # Continue working . . .
 # Write(save) and Quit the file.
 4. ":wq"
-
+![Create_and_Open.jpg](https://github.com/WSU-kduncan/ceg3120-jhoward08/tree/main/Project1)
 # There is now a file REAME.md in the folder of the directory which the git repo instance was created.
 # Now the file(s) and any directories necessary must be added to the git repository.
 
@@ -40,3 +50,4 @@
 3. Input comment(s) for commit reason, then save and exit editor.
 # Push said changes to the Git repo master branch.
 4. "git push"
+![Commit_and_Push.jpg](https://github.com/WSU-kduncan/ceg3120-jhoward08/tree/main/Project1)
