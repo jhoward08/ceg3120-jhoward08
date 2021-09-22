@@ -8,7 +8,7 @@
 ------------------------------------------------------------------------------------
 3. Create a New Application. 
 * In the top right corner of the page, you will see a button called "New Application"; Click this and call it a name when the popup presents itself.
-![Developer_Home](/Pictures/Develper_Home.jpg)
+![Developer_Home](Pictures/Develper_Home.jpg)
 * After making a new application you will see a new page with the name of your application and a list of traits.
 ![A_Bot](/Pictures/A_Bot.jpg)
 ********************************NOTE********************************
